@@ -9,6 +9,7 @@ public class RubricaTelefonica {
         if(nome!=null) {
             this.nome = nome;
         }
+        this.numeroDiTelefono=numeroDiTelefono;
     }
 
     public Long getNumeroDiTelefono() {

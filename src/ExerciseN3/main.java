@@ -58,15 +58,12 @@ public class main {
     }
 
     static void searchByName( String name,HashMap<String, Long> hashMap){
-        if(hashMap.containsKey(name)){
             for (Map.Entry<String, Long> entry : hashMap.entrySet()) {
                 if (entry.getKey().equals(name)) {
                     System.out.println("Il numero di telefono corrispondente è : " + entry.getValue());
                     break;
                 }
             }
-        }
-
     }
     static void printEveryone(HashMap<String, Long> hashMap){
             for (Map.Entry<String, Long> entry : hashMap.entrySet()) {

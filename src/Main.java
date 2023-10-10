@@ -30,6 +30,7 @@ public class Main {
         for(String word:stringSet){
             System.out.println(word);
         }
+        scanner.close();
     }
     private static int getNextNumber(Scanner scanner) {
         while (true) {
